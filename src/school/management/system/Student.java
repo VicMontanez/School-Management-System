@@ -13,6 +13,13 @@ public class Student {
     private int feesPaid;
     private int feesTotal;
 
+    /*
+    * To create a new student by initializing
+    * */
+
+    public Student(int id, String name, int grade) {
+        
+    }
 
 
 }
