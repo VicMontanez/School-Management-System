@@ -29,11 +29,23 @@ public class Student {
 
     //Not going to alter student's name, student's id.
 
+    /**
+     * Used to update the students grade.
+     * @param grade new grade of the student
+     */
     public void setGrade(int grade) {
         this.grade = grade;
     }
 
-
+    /**
+     * Add the fees to the fees paid.
+     * The school is going to receive the funds.
+     *
+     * @param fees the fees that the students pays
+     */
+    public void updateFeesPaid(int fees) {
+        feesPaid+=fees;
+    }
 
 
 }
