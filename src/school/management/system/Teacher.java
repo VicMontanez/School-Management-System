@@ -20,4 +20,8 @@ public class Teacher {
         this.name = name;
         this.salary = salary;
     }
+
+    public String getName() {
+        return name;
+    }
 }
