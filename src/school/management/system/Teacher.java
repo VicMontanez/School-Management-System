@@ -28,4 +28,8 @@ public class Teacher {
     public String getName() {
         return name;
     }
+
+    public  int getSalary() {
+        return salary;
+    }
 }
