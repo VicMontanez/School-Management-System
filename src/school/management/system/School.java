@@ -17,5 +17,7 @@ public class School {
     public School(List<Teacher> teacher, List<Student> student) {
         this.teacher = teacher;
         this.student = student;
+        totalMoneyEarned = 0;
+        totalMoneySpent= 0;
     }
 }
