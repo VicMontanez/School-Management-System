@@ -4,18 +4,18 @@ import java.util.List;
 
 public class School {
 
-    private List<Teacher> teacher;
+    private List<Teacher> teachers;
     private List<Student> student;
     private int totalMoneyEarned;
     private int totalMoneySpent;
 
     /**
      * new school object is created
-     * @param teacher list of teachers in the school
+     * @param teachers list of teachers in the school
      * @param student list of students in the school
      */
-    public School(List<Teacher> teacher, List<Student> student) {
-        this.teacher = teacher;
+    public School(List<Teacher> teachers, List<Student> student) {
+        this.teachers = teachers;
         this.student = student;
         totalMoneyEarned = 0;
         totalMoneySpent= 0;
@@ -26,7 +26,7 @@ public class School {
      * @return the list of teachers in the school
      */
     public List<Teacher> getTeacher() {
-        return teacher;
+        return teachers;
     }
 
     /**
@@ -34,7 +34,7 @@ public class School {
      * @param teacher the teacher to be added
      */
     public void addTeacher(Teacher teacher) {
-
+        teachers.add(teacher);
     }
 
     public List<Student> getStudent() {
