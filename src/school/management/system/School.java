@@ -46,19 +46,27 @@ public class School {
     }
 
     /**
-     *
-     * @param student
+     * Adds a student to the school
+     * @param student the student to be added
      */
     public void addStudent(Student student) {
         students.add(student);
     }
 
+    /**
+     *
+     * @return the total monet earned by the school
+     */
     public int getTotalMoneyEarned() {
         return totalMoneyEarned;
     }
 
-    public void setTotalMoneyEarned(int totalMoneyEarned) {
-        this.totalMoneyEarned = totalMoneyEarned;
+    /**
+     * Adds the total money earned by the school
+     * @param MoneyEarned money tha is supposed to be added
+     */
+    public void updateTotalMoneyEarned(int MoneyEarned) {
+        totalMoneyEarned += totalMoneyEarned;
     }
 
     public int getTotalMoneySpent() {
