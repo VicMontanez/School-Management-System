@@ -21,12 +21,20 @@ public class School {
         totalMoneySpent= 0;
     }
 
+    /**
+     *
+     * @return the list of teachers in the school
+     */
     public List<Teacher> getTeacher() {
         return teacher;
     }
 
-    public void setTeacher(List<Teacher> teacher) {
-        this.teacher = teacher;
+    /**
+     * Adds a teacher to the school
+     * @param teacher the teacher to be added
+     */
+    public void addTeacher(Teacher teacher) {
+
     }
 
     public List<Student> getStudent() {
