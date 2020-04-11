@@ -8,5 +8,7 @@ public class Main {
         Teacher vanderhorn = new Teacher(3, "Vanderhorn", 600);
 
         Student tanasha = new Student(1, "Tamasha", 4);
+        Student rakshith = new Student(2, "Rakshith V", 12);
+        Student rabbi = new Student(3, "Rabbi", 5);
     }
 }
