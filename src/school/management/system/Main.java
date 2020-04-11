@@ -6,5 +6,7 @@ public class Main {
 	    Teacher lizzy = new Teacher(1, "Lizzy", 500);
         Teacher melissa = new Teacher(2, "Melissa", 700);
         Teacher vanderhorn = new Teacher(3, "Vanderhorn", 600);
+
+        Student tanasha = new Student(1, "Tamasha", 4);
     }
 }
